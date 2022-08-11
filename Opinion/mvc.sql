@@ -1,0 +1,7 @@
+CREATE DATABASE feedback;
+USE feedback;
+
+CREATE TABLE opinion(
+	id INT(5) AUTO_INCREMENT PRIMARY KEY,
+	tipo VARCHAR(10) NOT NULL
+);
